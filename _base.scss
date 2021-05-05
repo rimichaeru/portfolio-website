@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Open+Sans:wght@300&display=swap');
+
+
+$font-title: "Bungee Hairline";
+$font-body: "Open Sans", sans-serif;
+
+$color-primary: #ff6767;
+$color-primary-light: rgba(255, 103, 103, 0.34);
+$color-secondary: #ffaa2c;
+$color-white: #fff;
+$color-black: #000;
+$color-offwhite: #e5e5e5;
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: $font-body;
+}
+
+a {
+  text-decoration: none;
+}
