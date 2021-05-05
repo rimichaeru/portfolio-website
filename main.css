@@ -33,7 +33,6 @@ a {
 
 .title__upper-bg--heading {
   display: flex;
-  justify-content: flex-end;
   font-family: "Bungee Hairline";
   font-size: 66px;
   color: #ff6767;
@@ -49,6 +48,22 @@ a {
   height: 300px;
   width: 300px;
   background-color: rgba(255, 103, 103, 0.34);
+}
+
+.main__seek__pages {
+  display: flex;
+  justify-content: center;
+}
+.main__seek__pages > * {
+  font-size: 20px;
+  padding: 5px;
+}
+.main__seek__cycle {
+  display: flex;
+  justify-content: center;
+}
+.main__seek__cycle > * {
+  padding: 0 5px;
 }
 
 .footer {
@@ -89,22 +104,29 @@ a {
   flex-direction: column;
 }
 .title__upper-bg {
-  height: 30vh;
+  height: 22vh;
   background-color: #000;
 }
 .title__lower-bg {
-  height: 30vh;
+  height: 18vh;
   padding-right: 20%;
 }
 
 .main {
   display: flex;
-  height: 60vh;
+  height: 58vh;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 .main__grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 150px;
+}
+.main__grid h2 {
+  text-align: center;
+}
+.main__seek {
+  margin-bottom: 40px;
 }
