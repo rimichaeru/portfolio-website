@@ -9,3 +9,102 @@
 a {
   text-decoration: none;
 }
+
+.navi > * {
+  font-family: "Bungee Hairline";
+  font-size: 24px;
+  color: #000;
+}
+
+.top__header {
+  margin-top: -2.4%;
+}
+.top__header > * {
+  font-family: "Bungee Hairline";
+  padding-right: 16px;
+}
+.top__header--head {
+  font-size: 70px;
+}
+.top__header--sub {
+  font-size: 24px;
+  margin-top: -8%;
+}
+
+.title__upper-bg--heading {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Bungee Hairline";
+  font-size: 66px;
+  color: #ff6767;
+}
+.title__lower-bg--subheading {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Bungee Hairline";
+  font-size: 60px;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: rgba(255, 103, 103, 0.34);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__copy {
+  display: flex;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+  height: 62vh;
+  justify-content: space-between;
+  background-color: #a66f6f;
+  text-align: end;
+  padding: 10px;
+}
+
+.navi {
+  position: sticky;
+  top: 0;
+  width: 600px;
+  padding: 10px 15px;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+.title__upper-bg {
+  height: 30vh;
+  background-color: #000;
+}
+.title__lower-bg {
+  height: 30vh;
+  padding-right: 20%;
+}
+
+.main {
+  display: flex;
+  height: 60vh;
+  flex-direction: column;
+  align-items: center;
+}
+.main__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 150px;
+}
