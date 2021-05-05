@@ -1,0 +1,70 @@
+@use "base" as *;
+
+
+.navi {
+  & > * {
+    font-family: $font-title;
+    font-size: 24px;
+    color: $color-black;
+    // margin: 30px 15px;
+
+  }
+}
+
+.top__header {
+  margin-top: -2.4%;
+
+  & > * {
+    font-family: $font-title;
+    padding-right: 16px;
+  }
+
+  &--head {
+    font-size: 70px;
+  }
+
+  &--sub {
+    font-size: 24px;
+    margin-top: -8%;
+  }
+}
+
+
+.title {
+
+  &__upper-bg--heading {
+    display: flex;
+    // align-items: flex-end;
+    font-family: $font-title;
+    font-size: 66px;
+    color: $color-primary;
+    
+  }
+
+  &__lower-bg--subheading {
+    display: flex;
+    justify-content: flex-end;
+    // align-items: flex-start;
+    font-family: $font-title;
+    font-size: 60px;
+  }
+
+}
+
+
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: $color-primary-light;
+}
+
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  &__copy {
+    display: flex;
+  }
+}

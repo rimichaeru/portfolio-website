@@ -1,0 +1,58 @@
+@use "base" as *;
+
+
+.page {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.top {
+  display: flex;
+  height: 62vh;
+  justify-content: space-between;
+  background-color: $color-primary-dark;
+  text-align: end;
+  padding: 10px;
+}
+
+.navi {
+  position: sticky;
+  top: 0;
+  width: 600px;
+  padding: 10px 15px;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+
+  &__upper-bg {
+    height: 30vh;
+    background-color: $color-black;
+  }
+
+  &__lower-bg {
+    height: 30vh;
+    padding-right: 20%;
+  }
+}
+
+.main {
+  display: flex;
+  height: 60vh;
+  flex-direction: column;
+  align-items: center;
+
+
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 150px;
+    
+  }
+}
