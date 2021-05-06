@@ -9,50 +9,62 @@
 
 .top {
   display: flex;
-  height: 62vh;
-  justify-content: space-between;
+  height: 66vh;
+  justify-content: flex-end;
   background-color: $color-primary-dark;
   text-align: end;
-  padding: 10px;
-  
-  .navi {
-    position: sticky;
-    top: 0;
-    width: 600px;
-    padding-top: 10px;
+  padding: 16px;
+}
 
-    & > * {
-      margin-left: 20px;
-    }
+.navi {
+  position: fixed;
+  top: 0;
+  padding: 16px;
+
+  & > * {
+    margin-left: 20px;
   }
 }
 
 
-.links {
-  margin-top: 20px;
-}
-
 .title {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  background-image: url(/assets/title-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33vh;
 
   &__upper-bg {
-    height: 22vh;
-    background-color: $color-black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 50%;
+    padding-left: 10px;
   }
 
   &__lower-bg {
-    height: 18vh;
-    padding-right: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  
+  }
+
+  .right-grid {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
   }
 }
 
+
 .main {
   display: flex;
-  height: 58vh;
+  height: 60vh;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  margin-top: 40px;
   
   &__grid {
     display: grid;
@@ -66,6 +78,53 @@
 
   &__seek {
     margin-bottom: 40px;
+  }
+}
+
+
+
+
+@media screen and (max-width: $breakpoint-tablet){
+  .top {
+    height: 40vh;
+  }
+
+  .title {
+    padding-left: 10px;
+    grid-template-columns: 3fr 2fr;
+    height: 30vh;
+
+    &__upper-bg {
+      height: 0;
+      margin-top: 30px;
+    }
+  
+    &__lower-bg {
+      justify-content: flex-start;
+      margin-top: 24px;
+    }
+  }
+
+  .main {
+    height: 64vh;
+  }
+}
+
+
+@media screen and (max-width: $breakpoint-mobile){
+
+  .title {
+    padding-left: 10px;
+    grid-template-columns: 3fr 2fr;
+    height: 28vh;
+
+    .right-grid {
+      display: none;
+    }
+  }
+
+  .main {
+    height: 58vh;
   }
 
 }
