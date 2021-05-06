@@ -14,14 +14,19 @@
   background-color: $color-primary-dark;
   text-align: end;
   padding: 10px;
+  
+  .navi {
+    position: sticky;
+    top: 0;
+    width: 600px;
+    padding-top: 10px;
+
+    & > * {
+      margin-left: 20px;
+    }
+  }
 }
 
-.navi {
-  position: sticky;
-  top: 0;
-  width: 600px;
-  padding: 10px 15px;
-}
 
 .links {
   margin-top: 20px;

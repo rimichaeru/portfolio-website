@@ -13,7 +13,11 @@ a {
 .navi > * {
   font-family: "Bungee Hairline";
   font-size: 24px;
-  color: #000;
+  color: #fff;
+  -webkit-text-stroke: 0.4px;
+}
+.navi > *:hover {
+  color: #ff6767;
 }
 
 .top__header {
@@ -29,6 +33,7 @@ a {
 .top__header--sub {
   font-size: 24px;
   margin-top: -8%;
+  -webkit-text-stroke: 0.4px;
 }
 
 .title__upper-bg--heading {
@@ -87,12 +92,14 @@ a {
   text-align: end;
   padding: 10px;
 }
-
-.navi {
+.top .navi {
   position: sticky;
   top: 0;
   width: 600px;
-  padding: 10px 15px;
+  padding-top: 10px;
+}
+.top .navi > * {
+  margin-left: 20px;
 }
 
 .links {
