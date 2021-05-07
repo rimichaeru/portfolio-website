@@ -26,7 +26,7 @@ a {
   font-family: "Bungee Hairline";
   font-size: 1.2vw;
   color: #fff;
-  -webkit-text-stroke: 0.4px;
+  -webkit-text-stroke: 1px;
 }
 .navi > *:hover {
   color: #ff6767;
@@ -114,7 +114,6 @@ a {
 @media screen and (max-width: 1280px) {
   .navi > * {
     font-size: 16px;
-    -webkit-text-stroke: 1px;
   }
 
   .top__header {
