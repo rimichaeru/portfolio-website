@@ -29,47 +29,45 @@
 
 .title {
   display: grid;
-  grid-template-columns: 4fr 1fr;
-  background-image: url(/assets/title-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 33vh;
+  grid-template-rows: 3fr 2fr;
 
   &__upper-bg {
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    height: 50%;
+    height: 20vh;
     padding-left: 10px;
+    background-color: black;
   }
 
   &__lower-bg {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-  
-  }
-
-  .right-grid {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
+    height: 1vh;
   }
 }
 
+.right-grid {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 66vh;
+  height: 10vw;
+  width: 10vw;
+}
 
 .main {
   display: flex;
-  height: 60vh;
+  height: 30vw;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin-top: 40px;
   
   &__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 150px;
+    gap: 5vw;
     
     & h2 {
       text-align: center;
@@ -89,20 +87,9 @@
     height: 40vh;
   }
 
-  .title {
-    padding-left: 10px;
-    grid-template-columns: 3fr 2fr;
-    height: 30vh;
-
-    &__upper-bg {
-      height: 0;
-      margin-top: 30px;
-    }
-  
-    &__lower-bg {
-      justify-content: flex-start;
-      margin-top: 24px;
-    }
+  .right-grid {
+    top: 46vh;
+    height: 10vh;
   }
 
   .main {
@@ -114,17 +101,20 @@
 @media screen and (max-width: $breakpoint-mobile){
 
   .title {
-    padding-left: 10px;
-    grid-template-columns: 3fr 2fr;
-    height: 28vh;
-
-    .right-grid {
-      display: none;
+    &__upper-bg {
+      height: 10vh;
+      padding-left: 10px;
+      background-color: black;
     }
   }
 
+  .right-grid {
+    top: 44vh;
+  }
+
   .main {
-    height: 58vh;
+    margin: 8vh 0;
+    height: 46vh;
   }
 
 }

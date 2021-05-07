@@ -53,7 +53,7 @@ a {
   font-family: "Bungee Hairline";
   font-size: 6vh;
   color: #ff6767;
-  height: 70%;
+  height: 80%;
 }
 .title__lower-bg--subheading {
   display: flex;
@@ -63,6 +63,7 @@ a {
   -webkit-text-stroke: 1px;
   -webkit-text-stroke-color: black;
   height: 20%;
+  margin-right: 16%;
 }
 
 .box {
@@ -116,6 +117,11 @@ a {
     font-size: 16px;
   }
 
+  .title__upper-bg--heading {
+    font-size: 4vw;
+    height: 80%;
+  }
+
   .top__header {
     margin-top: 22px;
   }
@@ -124,21 +130,6 @@ a {
   }
   .top__header--sub {
     font-size: 18px;
-  }
-
-  .title {
-    padding-top: 40px;
-  }
-  .title__upper-bg--heading {
-    font-size: 3.4vw;
-    height: 19%;
-    -webkit-text-stroke: 1px;
-  }
-  .title__lower-bg--subheading {
-    margin-top: 20px;
-    font-size: 3vw;
-    color: #fff;
-    -webkit-text-stroke: 1px;
   }
 
   .footer {
@@ -160,19 +151,19 @@ a {
     font-size: 3vw;
   }
 
-  .title {
-    padding-top: 10px;
-  }
   .title__upper-bg--heading {
-    font-size: 4vw;
-    height: 19%;
-    -webkit-text-stroke: 1px;
+    font-size: 20px;
+    height: 80%;
+    padding-top: 0px;
   }
   .title__lower-bg--subheading {
-    margin-top: 14px;
-    font-size: 3vw;
-    color: #fff;
-    -webkit-text-stroke: 1px;
+    font-size: 4vh;
+    height: 20%;
+    margin-right: 16%;
+  }
+
+  .footer-line {
+    margin-top: 50px;
   }
 
   .footer {
@@ -211,42 +202,43 @@ a {
 
 .title {
   display: grid;
-  grid-template-columns: 4fr 1fr;
-  background-image: url(/assets/title-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 33vh;
+  grid-template-rows: 3fr 2fr;
 }
 .title__upper-bg {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  height: 50%;
+  height: 20vh;
   padding-left: 10px;
+  background-color: black;
 }
 .title__lower-bg {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
+  height: 1vh;
 }
-.title .right-grid {
+
+.right-grid {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+  top: 66vh;
+  height: 10vw;
+  width: 10vw;
 }
 
 .main {
   display: flex;
-  height: 60vh;
+  height: 30vw;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin-top: 40px;
 }
 .main__grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 150px;
+  gap: 5vw;
 }
 .main__grid h2 {
   text-align: center;
@@ -260,18 +252,9 @@ a {
     height: 40vh;
   }
 
-  .title {
-    padding-left: 10px;
-    grid-template-columns: 3fr 2fr;
-    height: 30vh;
-  }
-  .title__upper-bg {
-    height: 0;
-    margin-top: 30px;
-  }
-  .title__lower-bg {
-    justify-content: flex-start;
-    margin-top: 24px;
+  .right-grid {
+    top: 46vh;
+    height: 10vh;
   }
 
   .main {
@@ -279,16 +262,20 @@ a {
   }
 }
 @media screen and (max-width: 480px) {
-  .title {
+  .title__upper-bg {
+    height: 10vh;
     padding-left: 10px;
-    grid-template-columns: 3fr 2fr;
-    height: 28vh;
+    background-color: black;
   }
-  .title .right-grid {
-    display: none;
+
+  .right-grid {
+    top: 44vh;
   }
 
   .main {
-    height: 58vh;
+    margin: 8vh 0;
+    height: 46vh;
   }
 }
+
+/*# sourceMappingURL=main.css.map */
