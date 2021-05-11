@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Open+Sans:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.call {
+  font-family: "Bungee Hairline";
+  font-size: 0.8vw;
+  -webkit-text-stroke: 1px;
+  color: #ff6767;
+}
+
+.link {
+  font-family: "Bungee Hairline";
+  -webkit-text-stroke: 1px;
+  font-size: 0.7vw;
+  text-align: center;
+  color: #000;
+}
+
+.scifi {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 80px;
+  width: 80%;
+}
+.scifi__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scifi__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.scifi__right p {
+  margin: 20px 0;
+}
+.scifi__right__sub {
+  width: 50%;
+  font-family: "Bungee Hairline";
+  -webkit-text-stroke: 1px;
+  font-size: 1.4vw;
+  text-align: center;
+  color: #000;
+}
+.scifi__right .call {
+  left: 0;
+}
+
+.philosophy {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.philosophy p {
+  text-align: center;
+  padding: 20px 14%;
+}
+.philosophy__title {
+  font-family: "Bungee Hairline";
+  font-size: 4vh;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: black;
+}
+.philosophy .call {
+  text-align: right;
+}
+
+@media screen and (max-width: 1280px) {
+  .link {
+    font-size: 1vw;
+  }
+
+  .call {
+    font-size: 0.8vw;
+  }
+
+  .navi-lower {
+    margin-top: 34rem;
+  }
+
+  .footer-line {
+    margin-top: 50px;
+  }
+
+  .navi-lower {
+    margin-top: 52rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .link {
+    font-size: 14px;
+  }
+
+  .call {
+    padding: 0 20px;
+    font-size: 14px;
+  }
+
+  .title__upper-bg--heading {
+    font-size: 4vh;
+  }
+  .title__lower-bg--subheading {
+    font-size: 3vh;
+  }
+
+  .scifi {
+    grid-template-columns: 1fr 2fr;
+    width: 84%;
+  }
+  .scifi__left__img {
+    width: 180px;
+    margin: 0 50px;
+  }
+  .scifi__right p {
+    margin: 20px 0;
+  }
+  .scifi__right__sub {
+    width: auto;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .navi-lower {
+    margin-top: 40rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .link {
+    font-size: 10px;
+  }
+
+  .call {
+    padding: 0 20px;
+    font-size: 10px;
+  }
+
+  .title__upper-bg--heading {
+    font-size: 3vh;
+  }
+  .title__lower-bg--subheading {
+    font-size: 2.6vh;
+  }
+
+  .scifi {
+    grid-template-columns: 1fr;
+  }
+  .scifi__left__img {
+    width: 120px;
+  }
+  .scifi__right p {
+    margin: 20px 0;
+  }
+  .scifi__right__sub {
+    width: auto;
+    font-size: 16px;
+    margin-top: 30px;
+  }
+
+  .philosophy {
+    width: auto;
+  }
+  .philosophy p {
+    padding: 20px 5%;
+  }
+
+  .navi-lower {
+    margin-top: 84rem;
+  }
+
+  .footer-line {
+    margin-top: 50px;
+  }
+}

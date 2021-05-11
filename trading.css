@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Open+Sans:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+.stats__sub {
+  font-family: "Bungee Hairline";
+  font-size: 2vw;
+  -webkit-text-stroke: 1px;
+  color: #ff6767;
+}
+.stats__list__item {
+  font-size: 1.2vw;
+  -webkit-text-stroke: 1px;
+  color: #000;
+}
+.stats p {
+  padding: 0 10%;
+  margin-top: 8%;
+}
+
+@media screen and (max-width: 1280px) {
+  .navi-lower {
+    margin-top: 12rem;
+  }
+
+  .footer-line {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .title__upper-bg--heading {
+    font-size: 4vh;
+  }
+  .title__lower-bg--subheading {
+    font-size: 3vh;
+  }
+
+  .main__grid {
+    margin-bottom: 0;
+  }
+
+  .stats__sub {
+    font-size: 26px;
+    -webkit-text-stroke: 1px;
+    color: #ff6767;
+  }
+  .stats__list__item {
+    font-size: 20px;
+    -webkit-text-stroke: 1px;
+    color: #000;
+  }
+  .stats p {
+    padding: 0 0;
+  }
+
+  .navi-lower {
+    margin-top: 4rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .title__lower-bg--subheading {
+    font-size: 2.3vh;
+  }
+
+  .stats__sub {
+    font-size: 18px;
+    -webkit-text-stroke: 1px;
+    color: #ff6767;
+  }
+  .stats__list__item {
+    font-size: 14px;
+    -webkit-text-stroke: 1px;
+    color: #000;
+  }
+  .stats p {
+    padding: 0 0;
+  }
+
+  .navi-lower {
+    margin-top: 30rem;
+  }
+
+  .footer-line {
+    margin-top: 50px;
+  }
+}
