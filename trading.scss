@@ -1,12 +1,10 @@
 @use "base" as *;
 
-
-
 .stats {
   display: flex;
   flex-direction: column;
   width: 80%;
-  
+
   &__sub {
     font-family: $font-title;
     font-size: 2vw;
@@ -28,10 +26,7 @@
   }
 }
 
-
-
-@media screen and (max-width:$breakpoint-tablet-large){
-
+@media screen and (max-width: $breakpoint-tablet-large) {
   .navi-lower {
     margin-top: 12rem;
   }
@@ -39,12 +34,9 @@
   .footer-line {
     margin-top: 50px;
   }
-
 }
 
-
-@media screen and (max-width: $breakpoint-tablet-small){
-
+@media screen and (max-width: $breakpoint-tablet-small) {
   .title {
     &__upper-bg--heading {
       font-size: 4vh;
@@ -55,19 +47,19 @@
     }
   }
 
-  .main { 
+  .main {
     &__grid {
       margin-bottom: 0;
     }
   }
-  
+
   .stats {
     &__sub {
       font-size: 26px;
       -webkit-text-stroke: 1px;
       color: $color-primary;
     }
-    
+
     &__list {
       &__item {
         font-size: 20px;
@@ -75,7 +67,7 @@
         color: $color-black;
       }
     }
-    
+
     p {
       padding: 0 0;
     }
@@ -86,9 +78,7 @@
   }
 }
 
-
-@media screen and (max-width:$breakpoint-mobile){
-
+@media screen and (max-width: $breakpoint-mobile) {
   .title {
     &__lower-bg--subheading {
       font-size: 2.3vh;
@@ -101,7 +91,7 @@
       -webkit-text-stroke: 1px;
       color: $color-primary;
     }
-  
+
     &__list {
       &__item {
         font-size: 14px;
@@ -114,14 +104,12 @@
       padding: 0 0;
     }
   }
-  
+
   .navi-lower {
     margin-top: 30rem;
   }
-  
+
   .footer-line {
     margin-top: 50px;
   }
 }
-
-
