@@ -1,6 +1,5 @@
 @use "base" as *;
 
-
 .page {
   display: flex;
   flex-direction: column;
@@ -31,7 +30,6 @@
   margin-bottom: 20px;
   position: initial;
 }
-
 
 .title {
   display: grid;
@@ -69,13 +67,13 @@
   align-items: center;
   justify-content: space-between;
   margin-top: 30px;
-  
+
   &__grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5vw;
     margin-bottom: 8vh;
-    
+
     & p {
       display: flex;
       width: 310px;
@@ -83,8 +81,7 @@
   }
 }
 
-
-@media screen and (max-width: $breakpoint-tablet-large){
+@media screen and (max-width: $breakpoint-tablet-large) {
   .top {
     height: 40vh;
   }
@@ -103,9 +100,8 @@
   }
 }
 
-@media screen and (max-width: $breakpoint-tablet-small){
-
-  .main { 
+@media screen and (max-width: $breakpoint-tablet-small) {
+  .main {
     &__grid {
       margin-bottom: 0;
     }
@@ -115,9 +111,7 @@
   }
 }
 
-
-@media screen and (max-width: $breakpoint-mobile){
-
+@media screen and (max-width: $breakpoint-mobile) {
   .title {
     &__upper-bg {
       height: 10vh;
