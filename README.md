@@ -7,6 +7,10 @@ with advanced functions based on npm and JS.
 
 
 
+Hosted through GitHub pages:
+https://rimichaeru.github.io/portfolio-website/
+
+
 #### VSCode compile shortcuts:
 Watch the scss compile automatically on save
 $ npm run watch:scss
