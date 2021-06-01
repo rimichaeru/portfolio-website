@@ -4,5 +4,22 @@
   },
   "scripts": {
     "watch:scss": "sass --watch main.scss main.css"
-  }
+  },
+  "name": "portfolio-website",
+  "description": "A budding portfolio for Lee-Michael D'Souza,",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@splidejs/splide": "^2.4.21"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rimichaeru/portfolio-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rimichaeru/portfolio-website/issues"
+  },
+  "homepage": "https://github.com/rimichaeru/portfolio-website#readme"
 }
