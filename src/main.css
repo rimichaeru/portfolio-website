@@ -22,6 +22,31 @@ a {
   -webkit-text-stroke: 0.4px;
 }
 
+.splide {
+  margin-top: 60px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 80%;
+  display: flex;
+}
+.splide img {
+  width: auto;
+  height: 300px;
+  object-fit: scale-down;
+  padding: 4px;
+  margin-bottom: 20px;
+}
+.splide__slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  row-gap: 6px;
+}
+.splide__slide .desc {
+  margin-bottom: 80px;
+}
+
 .navi > * {
   font-family: "Bungee Hairline";
   font-size: 1.2vw;
@@ -80,22 +105,6 @@ a {
   height: 300px;
   width: 300px;
   background-color: rgba(255, 103, 103, 0.34);
-}
-
-.main__seek__pages {
-  display: flex;
-  justify-content: center;
-}
-.main__seek__pages > * {
-  font-size: 20px;
-  padding: 5px;
-}
-.main__seek__cycle {
-  display: flex;
-  justify-content: center;
-}
-.main__seek__cycle > * {
-  padding: 0 5px;
 }
 
 .footer-line {
@@ -212,7 +221,7 @@ a {
 
 .navi-lower {
   display: flex;
-  margin-top: 14rem;
+  margin-top: 4rem;
   margin-bottom: 20px;
   position: initial;
 }

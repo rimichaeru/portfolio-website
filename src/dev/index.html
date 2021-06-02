@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dev: Lee-Michael D'Souza</title>
-    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="../main.css" />
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-    <link rel="stylesheet" href="../../node_modules/@splidejs/splide/dist/css/splide.min.css">
+    <link
+      rel="stylesheet"
+      href="../../node_modules/@splidejs/splide/dist/css/splide.min.css"
+    />
   </head>
 
   <body class="page">
@@ -192,101 +195,60 @@
       </div>
     </div>
 
-    <main class="main">
-      <div class="splide">
-        <div class="splide__track">
-          <div class="splide__list">
-            <div class="splide__slide">
-              <div class="main__grid--1">
-                <div class="box image"></div>
-                <h2 class="type">TYPE</h2>
-                <p class="desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                  fringilla velit a ex tempor tempus vitae in nunc. Mauris elementum
-                  erat quis risus sagittis, id ultrices neque lobortis. Duis fermentum
-                  pharetra tellus, a bibendum libero condimentum in. Sed luctus justo
-                  eu massa mollis ornare. Fusce at lacus quis felis viverra porta eget
-                  a urna. Fusce varius ligula id rutrum semper.
-                </p>
-              </div>
-            </div>
-            <div class="splide__slide">Slide 02</div>
-            <div class="splide__slide">Slide 03</div>
-          </div>
-        </div>
+    <div class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <img src="../../assets/logic-poker-example.png" alt="Logic Poker" />
+            <h2 class="type">Logic Poker</h2>
+            <p class="desc">
+              Logic poker is a type of speed poker with an emphasis on bet sizing. Check out the github repo for an explanation on bet sizing and more about the project.
+              <br>
+              Features: Jest w/ Babel unit testing, logic for win and draw outcomes, QoL buttons and efficient UXUI, change settings.
+            </p>
+          </li>
+          <li class="splide__slide">
+            <img
+              src="../../assets/eyetrack-example.gif"
+              alt="Rimi's Eyetrack"
+            />
+            <h2 class="type">Rimi's Eyetrack</h2>
+            <p class="desc">
+              A simple but effective Python-built tkinter app for training reactions with customisable grid size, target colour, and background colour. Utilises numpy to create an invisible grid and exported with cx_Freeze.
+              <br>
+              For more features check out the github readme!
+            </p>
+          </li>
+          <li class="splide__slide">
+            <img src="../../assets/web-calc-example.png" alt="Web Calculator" />
+            <h2 class="type">Web Calculator</h2>
+            <p class="desc">
+              A custom-built calculator without using the eval() function. Utilises end-to-end testing with Cypress and features a dynamic bubble background.
+              <br>
+              Scroll through the previous answers to input them into the current calculation! Modular in function and design with grid-area, and ready to be expanded into a full scientific calculator.
+            </p>
+          </li>
+          <li class="splide__slide">
+            <img src="../../assets/morse-example.PNG" alt="Morse Translator" />
+            <h2 class="type">Morse Translator</h2>
+            <p class="desc">
+              Via TDD unit testing, the Morse Code Translator was created! Try
+              it out!<br><a href="https://rimichaeru.github.io/morse-code-translator/">https://rimichaeru.github.io/morse-code-translator/</a><br>Features: TDD unit testing with Jest and Babel, English to Morse, and Morse to English, Text to Speech.
+            </p>
+          </li>
+        </ul>
       </div>
-      <!-- <div class="main__grid">
-        <div class="main__grid--1">
-          <div class="box image"></div>
-          <h2 class="type">TYPE</h2>
-          <p class="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            fringilla velit a ex tempor tempus vitae in nunc. Mauris elementum
-            erat quis risus sagittis, id ultrices neque lobortis. Duis fermentum
-            pharetra tellus, a bibendum libero condimentum in. Sed luctus justo
-            eu massa mollis ornare. Fusce at lacus quis felis viverra porta eget
-            a urna. Fusce varius ligula id rutrum semper.
-          </p>
-        </div>
-        <div class="main__grid--2">
-          <div class="box image"></div>
-          <h2 class="type">TYPE</h2>
-          <p class="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            fringilla velit a ex tempor tempus vitae in nunc. Mauris elementum
-            erat quis risus sagittis, id ultrices neque lobortis. Duis fermentum
-            pharetra tellus, a bibendum libero condimentum in. Sed luctus justo
-            eu massa mollis ornare. Fusce at lacus quis felis viverra porta eget
-            a urna. Fusce varius ligula id rutrum semper.
-          </p>
-        </div>
-        <div class="main__grid--3">
-          <div class="box image"></div>
-          <h2 class="type">TYPE</h2>
-          <p class="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            fringilla velit a ex tempor tempus vitae in nunc. Mauris elementum
-            erat quis risus sagittis, id ultrices neque lobortis. Duis fermentum
-            pharetra tellus, a bibendum libero condimentum in. Sed luctus justo
-            eu massa mollis ornare. Fusce at lacus quis felis viverra porta eget
-            a urna. Fusce varius ligula id rutrum semper.
-          </p>
-        </div>
-        <div class="main__grid--4">
-          <div class="box image"></div>
-          <h2 class="type">TYPE</h2>
-          <p class="desc">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            fringilla velit a ex tempor tempus vitae in nunc. Mauris elementum
-            erat quis risus sagittis, id ultrices neque lobortis. Duis fermentum
-            pharetra tellus, a bibendum libero condimentum in. Sed luctus justo
-            eu massa mollis ornare. Fusce at lacus quis felis viverra porta eget
-            a urna. Fusce varius ligula id rutrum semper.
-          </p>
-        </div>
-      </div>
+    </div>
 
-      <div class="main__seek">
-        <div class="main__seek__pages">
-          <a href="" class="main__seek__pages--web">Web</a>
-          <a href="" class="main__seek__pages--app">App</a>
-          <a href="" class="main__seek__pages--game">Game</a>
-        </div>
-
-        <div class="main__seek__cycle">
-          <a href="" class="main__seek__cycle--left"> < </a>
-          <p class="main__seek__cycle--name">Cycle Pages</p>
-          <a href="" class="main__seek__cycle--_right"> > </a>
-        </div>
-      </div> -->
-    </main>
-    
     <nav class="navi navi-lower">
       <a href="../dev/index.html" class="navi__dev">Developer</a>
       <a href="../author/author.html" class="navi__auth">Author</a>
       <a href="../trading/trading.html" class="navi__eq">Equity Trading</a>
     </nav>
-    <script src="../../node_modules/@splidejs/splide/dist/js/splide.js" type="module"></script>
+    <script
+      src="../../node_modules/@splidejs/splide/dist/js/splide.js"
+      type="module"
+    ></script>
     <script src="main.js" type="module"></script>
   </body>
 
