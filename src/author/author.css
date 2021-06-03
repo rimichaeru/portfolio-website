@@ -75,6 +75,10 @@ a {
   text-align: right;
 }
 
+.navi-lower {
+  margin-top: 4rem;
+}
+
 @media screen and (max-width: 1280px) {
   .link {
     font-size: 1vw;
