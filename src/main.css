@@ -186,7 +186,7 @@ a {
   }
 
   .top__header {
-    margin-top: 20px;
+    margin-top: 6vw;
   }
   .top__header--head {
     font-size: 5vw;
@@ -246,6 +246,7 @@ a {
 
 .navi-lower {
   display: flex;
+  margin-top: 4rem;
   margin-bottom: 20px;
   position: initial;
 }

@@ -32,16 +32,24 @@ new Splide(".splide", {
         left: "4rem",
         right: "4rem",
       },
-      fixedWidth: "400px",
+      fixedWidth: "420px",
+    },
+    420: {
+      gap: "2rem",
+      padding: {
+        left: "4rem",
+        right: "4rem",
+      },
+      fixedWidth: "360px",
     },
     380: {
-      fixedWidth: "340px",
+      fixedWidth: "330px",
     },
 		360: {
-			fixedWidth: "320px",
+			fixedWidth: "310px",
 		},
 		340: {
-			fixedWidth: "300px",
+			fixedWidth: "290px",
 		},
   },
 }).mount();

@@ -140,12 +140,12 @@ a {
 }
 @media screen and (max-width: 480px) {
   .link {
-    font-size: 10px;
+    font-size: 14px;
   }
 
   .call {
     padding: 0 20px;
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .title__upper-bg--heading {
