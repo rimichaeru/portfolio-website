@@ -21,6 +21,11 @@
   width: 80%;
   display: flex;
 
+  .project-links {
+    display: flex;
+    gap: 20px;
+  }
+
   img {
     width: auto;
     height: 16vw;
@@ -37,6 +42,7 @@
     flex-direction: column;
     row-gap: 6px;
   }
+
 }
 
 .navi {

@@ -30,6 +30,10 @@ a {
   width: 80%;
   display: flex;
 }
+.splide .project-links {
+  display: flex;
+  gap: 20px;
+}
 .splide img {
   width: auto;
   height: 16vw;
