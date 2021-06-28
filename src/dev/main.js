@@ -1,12 +1,12 @@
 new Splide(".splide", {
-  gap: "6rem",
+  gap: "3rem",
   padding: {
     left: "10rem",
     right: "10rem",
   },
   // cover: true,
   type: "loop",
-  height: "40rem",
+  height: "46rem",
   // fixedWidth: "500px",
   focus: "center",
   perPage: 3,
