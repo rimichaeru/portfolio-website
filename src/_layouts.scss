@@ -7,7 +7,8 @@
 
 .top {
   display: flex;
-  height: 66vh;
+  // height: 66vh;
+  height: 40vh;
   justify-content: flex-end;
   background-color: $color-primary-dark;
   text-align: end;
@@ -39,7 +40,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
-    height: 20vh;
+    height: 32vh;
     padding-left: 10px;
     background-color: black;
   }
@@ -56,7 +57,7 @@
   display: flex;
   position: absolute;
   right: 0;
-  top: 66vh;
+  top: 52vh;
   height: 10vw;
   width: 10vw;
 }
@@ -83,16 +84,18 @@
 
 @media screen and (max-width: $breakpoint-tablet-large) {
   .top {
-    height: 40vh;
+    height: 22vh;
+  }
+
+  .title {
+    &__upper-bg {
+      height: 26vh;
+    }
   }
 
   .right-grid {
-    top: 46vh;
+    top: 41vh;
     height: 10vh;
-  }
-
-  .main {
-    height: 64vh;
   }
 
   .navi-lower {
@@ -101,6 +104,13 @@
 }
 
 @media screen and (max-width: $breakpoint-tablet-small) {
+  
+  .title {
+    &__upper-bg {
+      height: 26vh;
+    }
+  }
+  
   .main {
     &__grid {
       margin-bottom: 0;
@@ -114,14 +124,14 @@
 @media screen and (max-width: $breakpoint-mobile) {
   .title {
     &__upper-bg {
-      height: 10vh;
+      height: 20vh;
       padding-left: 10px;
       background-color: black;
     }
   }
 
   .right-grid {
-    top: 44vh;
+    top: 42vh;
   }
 
   .main {

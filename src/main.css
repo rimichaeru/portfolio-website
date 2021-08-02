@@ -157,23 +157,23 @@ a {
 
   .splide {
     width: 90%;
-    height: 540px;
+    height: 640px;
     margin-top: 40px;
   }
   .splide .desc {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 900px) {
   .splide {
     width: 95%;
-    height: 580px;
+    height: 640px;
   }
   .splide img {
     height: 300px;
   }
   .splide .desc {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -232,7 +232,7 @@ a {
 
 .top {
   display: flex;
-  height: 66vh;
+  height: 40vh;
   justify-content: flex-end;
   background-color: #a66f6f;
   text-align: end;
@@ -263,7 +263,7 @@ a {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  height: 20vh;
+  height: 32vh;
   padding-left: 10px;
   background-color: black;
 }
@@ -278,7 +278,7 @@ a {
   display: flex;
   position: absolute;
   right: 0;
-  top: 66vh;
+  top: 52vh;
   height: 10vw;
   width: 10vw;
 }
@@ -303,32 +303,36 @@ a {
 
 @media screen and (max-width: 1280px) {
   .top {
-    height: 40vh;
+    height: 22vh;
+  }
+
+  .title__upper-bg {
+    height: 26vh;
   }
 
   .right-grid {
-    top: 46vh;
+    top: 41vh;
     height: 10vh;
-  }
-
-  .main {
-    height: 64vh;
   }
 }
 @media screen and (max-width: 900px) {
+  .title__upper-bg {
+    height: 26vh;
+  }
+
   .main__grid {
     margin-bottom: 0;
   }
 }
 @media screen and (max-width: 480px) {
   .title__upper-bg {
-    height: 10vh;
+    height: 20vh;
     padding-left: 10px;
     background-color: black;
   }
 
   .right-grid {
-    top: 44vh;
+    top: 42vh;
   }
 
   .main {
