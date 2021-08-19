@@ -1,5 +1,25 @@
 @use "./base" as *;
 
+.python {
+  color: rgb(1, 124, 1);
+}
+
+.js {
+  color: rgb(187, 0, 0);
+}
+
+.jsjava {
+  color: purple;
+}
+
+.key {
+  display: flex;
+  justify-content: flex-end;
+  gap: 6px;
+  width: 80vw;
+  font-weight: bolder;
+}
+
 @-webkit-keyframes fade-in {
   from {
     opacity: 0;
