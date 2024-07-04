@@ -1,4 +1,4 @@
-new Splide(".splide", {
+const splide_config = {
   gap: "3rem",
   padding: {
     left: "10rem",
@@ -52,4 +52,8 @@ new Splide(".splide", {
 			fixedWidth: "290px",
 		},
   },
-}).mount();
+}
+
+new Splide("#splide", splide_config).mount();
+
+new Splide("#splide-old", splide_config).mount();

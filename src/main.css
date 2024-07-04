@@ -22,12 +22,25 @@ a {
   color: purple;
 }
 
+.devops {
+  color: purple;
+}
+
 .key {
   display: flex;
-  justify-content: flex-end;
-  gap: 6px;
-  width: 80vw;
+  justify-content: space-evenly;
   font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+.key h4 {
+  font-family: "Bungee Hairline";
+  font-size: 22px;
+  -webkit-text-stroke: 1.8px;
+}
+.key div {
+  display: flex;
+  gap: 6px;
 }
 
 @-webkit-keyframes fade-in {
@@ -43,7 +56,8 @@ a {
 }
 
 .splide {
-  margin-top: 60px;
+  margin-top: 40px;
+  margin-bottom: 100px;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
@@ -203,9 +217,17 @@ a {
   }
 }
 @media screen and (max-width: 480px) {
+  .key {
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+  }
+  .key h4 {
+    font-size: medium;
+  }
   .splide {
     width: 95%;
-    height: 580px;
+    height: 660px;
   }
   .splide .desc {
     font-size: 12px;
@@ -231,6 +253,7 @@ a {
     font-size: 4vh;
     height: 20%;
     margin-right: 16%;
+    margin-top: 5%;
   }
   .footer-line {
     margin-top: 50px;
@@ -264,7 +287,10 @@ a {
 .navi {
   position: fixed;
   top: 0;
-  padding: 16px;
+  padding: 16px 10px 10px 16px;
+  background-color: #a66f6f;
+  z-index: 100;
+  width: 100%;
 }
 .navi > * {
   margin-left: 20px;

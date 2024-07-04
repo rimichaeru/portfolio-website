@@ -12,12 +12,27 @@
   color: purple;
 }
 
+.devops {
+  color: purple;
+}
+
 .key {
   display: flex;
-  justify-content: flex-end;
-  gap: 6px;
-  width: 80vw;
+  justify-content: space-evenly;
   font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 14px;
+
+  h4 {
+    font-family: $font-title;
+    font-size: 22px;
+    -webkit-text-stroke: 1.8px;
+  }
+
+  div {
+    display: flex;
+    gap: 6px;
+  }
 }
 
 @-webkit-keyframes fade-in {
@@ -34,7 +49,8 @@
 }
 
 .splide {
-  margin-top: 60px;
+  margin-top: 40px;
+  margin-bottom: 100px;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
@@ -234,9 +250,19 @@
 }
 
 @media screen and (max-width: $breakpoint-mobile) {
+  .key {
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+
+    h4 {
+      font-size: medium;
+    }
+  }
+
   .splide {
     width: 95%;
-    height: 580px;
+    height: 660px;
 
     .desc {
       font-size: 12px;
@@ -272,6 +298,7 @@
       font-size: 4vh;
       height: 20%;
       margin-right: 16%;
+      margin-top: 5%;
     }
   }
 
