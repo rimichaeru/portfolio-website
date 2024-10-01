@@ -81,6 +81,9 @@ a {
   row-gap: 6px;
 }
 
+.navi {
+  margin-bottom: 4vh;
+}
 .navi > * {
   font-family: "Bungee Hairline";
   font-size: 1.2vw;
@@ -101,7 +104,7 @@ a {
 }
 
 .top__header {
-  margin-top: 1vh;
+  margin-top: 4vh;
   -webkit-animation: fade-in 3s;
 }
 .top__header > * {
@@ -276,7 +279,7 @@ a {
 
 .top {
   display: flex;
-  height: 15vh;
+  height: 16vh;
   justify-content: flex-end;
   background-color: #a66f6f;
   text-align: end;

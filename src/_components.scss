@@ -82,6 +82,8 @@
 }
 
 .navi {
+  margin-bottom: 4vh;
+
   & > * {
     font-family: $font-title;
     font-size: 1.2vw;
@@ -107,7 +109,7 @@
 }
 
 .top__header {
-  margin-top: 1vh;
+  margin-top: 4vh;
   -webkit-animation: fade-in 3s;
 
   & > * {
